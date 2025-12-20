@@ -1,10 +1,9 @@
 <?php
-// Cek apakah session sudah dimulai
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
-// Cek apakah user mengklik tombol ganti bahasa
+// Cek apakah user mengklik ganti bahasa
 if (isset($_GET['lang'])) {
     $langCode = $_GET['lang'];
     if ($langCode == 'id' || $langCode == 'en') {
@@ -12,7 +11,7 @@ if (isset($_GET['lang'])) {
     }
 }
 
-//Tentukan bahasa aktif (Default: id)
+//Tentukan bahasa aktif 
 $current_lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'id';
 
 //Load file bahasa yang sesuai
@@ -23,4 +22,5 @@ if (file_exists($lang_path)) {
 } else {
     $lang = include(__DIR__ . "/../languages/id.php");
 }
+
 ?>

@@ -1,0 +1,173 @@
+/* LOGIN.CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4; 
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* HEADER TEXT */
+.text-login {
+    text-align: center;
+    margin-bottom: 25px;
+    animation: fadeInDown 0.8s ease;
+}
+
+.text-login h1 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #333; 
+    letter-spacing: 0.5px;
+    margin-bottom: 5px;
+}
+
+/* LOGIN CARD (KOTAK PUTIH) */
+.login-card {
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); 
+    border: 1px solid #e0e0e0;
+    width: 100%;
+    animation: fadeInUp 0.8s ease;
+}
+
+.login-card form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* INPUT FIELDS */
+.input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 12px;
+    font-weight: 700;
+    color: #555;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.textfield-login {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    background: #fff;
+    color: #333;
+}
+
+.textfield-login:focus {
+    outline: none;
+    border-color: #ffca7a; 
+    box-shadow: 0 0 0 3px rgba(255, 202, 122, 0.3);
+}
+
+.textfield-login::placeholder {
+    color: #aaa;
+}
+
+
+
+/* BUTTON (STYLE BUTTON ORANGE) */
+.login-btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #ffca7a; 
+    color: #333; 
+    border: 1px solid #d4a75b;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.login-btn:hover {
+    background-color: #ffbd59;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0,0,0,0.1);
+}
+
+.login-btn:active {
+    transform: translateY(0);
+}
+
+/* FOOTER */
+.footer-login {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    animation: fadeIn 1s ease;
+}
+
+.footer-login a {
+    color: #d4a75b;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.footer-login a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+/* ERROR MESSAGE */
+.error-message {
+    background: #ffebee;
+    color: #c62828;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ffcdd2;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* ANIMATIONS */
+@keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .login-card { padding: 30px 20px; }
+}

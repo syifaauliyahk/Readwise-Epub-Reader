@@ -1,6 +1,6 @@
 <?php
 return [
-    // --- LOGIN PAGE ---
+    // LOGIN PAGE 
     'page_title_login' => 'Login - ReadMe',
     'welcome_back' => 'Welcome Back!',
     'login_subtitle' => 'Please login to your account',
@@ -16,7 +16,8 @@ return [
     'error_wrong_pass' => 'Wrong password!',
     'error_user_not_found' => 'Username not found!',
 
-    // --- REGISTER PAGE ---
+    
+    // REGISTER PAGE
     'page_title_register' => 'Sign Up - ReadMe',
     'create_account' => 'Create Account',
     'register_subtitle' => 'Join our community today',
@@ -34,7 +35,8 @@ return [
     'error_register_fail' => 'Registration failed, please try again.',
     'success_register' => 'Account created successfully! Please login.',
 
-    // --- INDEX PAGE ---
+    
+    // INDEX PAGE
     'library_title' => 'My Library',
     'books_available' => 'Books Available',
     'search_library_placeholder' => 'Search by title or author...',
@@ -46,7 +48,6 @@ return [
     'delete_warning' => 'This action cannot be undone.',
     'delete_success' => 'Deleted successfully!',
     'delete_failed' => 'Delete failed!',
-
 
     // Sidebar Upload & Filter
     'upload_title' => 'Upload New Book',
@@ -71,7 +72,8 @@ return [
     'sort_az' => 'Title A-Z',
     'logout' => 'Logout',
 
-    // --- UPLOAD PAGE ---
+    
+    // UPLOAD PAGE
     'page_title_upload' => 'Upload Status - ReadMe',
     'status_info_title' => 'ℹ️ Status Info',
     'status_info_desc' => 'This page shows the result of your EPUB upload process. If failed, please check the error log below.',
@@ -98,7 +100,8 @@ return [
     'log_invalid_format' => 'ERROR: File is not a valid .epub format',
     'log_system_error' => 'SYSTEM ERROR CODE: ',
 
-    // --- READER PAGE ---
+    
+    // READER PAGE
     'page_title_reader' => 'Reading: %s - ReadMe',
     'back_to_library' => 'Back to Library',
     'toc_title' => 'Table of Contents',
@@ -122,7 +125,8 @@ return [
     'reader_wait' => 'Wait...',
     'reader_error' => 'Error: ',
 
-    // --- DELETE BOOK PROCESS ---
+    
+    // DELETE BOOK PROCESS 
     'err_not_logged_in' => 'You are not logged in.',
     'err_invalid_method' => 'Invalid request method.',
     'err_no_book_id' => 'No book ID provided.',
@@ -130,7 +134,8 @@ return [
     'msg_delete_success' => 'Book deleted successfully.',
     'err_delete_db' => 'Failed to delete from database.',
 
-    // --- API MESSAGES ---
+    
+    // API MESSAGES 
     'api_unauthorized' => 'Unauthorized.',
     'api_missing_book_id' => 'Missing Book ID.',
     'api_book_not_found' => 'Book not found.',
@@ -141,10 +146,12 @@ return [
     'api_invalid_action' => 'Invalid action.',
     'api_db_error' => 'Database Error: ',
 
-    // --- DATABASE ---
+    
+    // DATABASE 
     'db_connection_failed' => 'Connection failed: ',
 
-    // --- EPUB CLASS INTERNAL ---
+    
+    // EPUB CLASS INTERNAL
     'epub_untitled' => 'Untitled',
     'epub_unknown_author' => 'Unknown Author',
     'epub_chapter_prefix' => 'Chapter ',
@@ -155,8 +162,8 @@ return [
     'epub_err_read_title' => 'Read Error',
     'epub_err_read_msg' => 'Cannot read file content.',
 
-    // --- READER PAGE (UPDATE) ---
-    // ... (biarkan yang lain) ...
+    
+    // READER PAGE (UPDATE) 
     'bookmarks_title' => 'Bookmarks & Notes',
     'btn_bookmark' => '🔖 Bookmark This Page',
     'btn_note' => '📝 Add Note',

@@ -1,6 +1,8 @@
 # 📚 ReadWise - Web Based ePub Reader
-**ReadWise** adalah aplikasi pembaca buku digital (e-reader) berbasis web yang mendukung format `.epub`. Aplikasi ini memungkinkan pengguna untuk mengunggah dan membaca buku digital secara online.
-Proyek ini dibuat untuk memenuhi **Ujian Akhir Semester (UAS)** mata kuliah **Pemrograman Berbasis Platform**.
+
+ReadWise adalah aplikasi pembaca buku digital (e-reader) berbasis web yang mendukung format `.epub`. Aplikasi ini memungkinkan pengguna untuk mengunggah dan membaca buku digital secara online.
+Proyek ini dibuat untuk memenuhi **Ujian Akhir Semester (UAS)** mata kuliah **Pemrograman Berbasis Platform.
+
 ---
 ## 👨‍💻 Identitas Kelompok
 **Anggota Tim:**

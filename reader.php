@@ -249,7 +249,7 @@ $user = $res_user->fetch_assoc();
                                 }
                             }
                         } else {
-                            viewer.scrollTop = 0; // ke atas
+                            viewer.scrollTop = 0; 
                         }
                     }, 100);
                 }
@@ -372,4 +372,5 @@ $user = $res_user->fetch_assoc();
 </script>
 
 </body>
+
 </html>

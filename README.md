@@ -9,9 +9,10 @@ Proyek ini dibuat untuk memenuhi **Ujian Akhir Semester (UAS)** mata kuliah **Pe
 1.  **Nama:** [NAMA ANGGOTA 1]
 2.  **Nama:** [NAMA ANGGOTA 2]
 3.  **Nama:** [NAMA ANGGOTA 3]
-   
+
 * **Fakultas:** Sains dan Teknologi
 * **Mata Kuliah:** Pemrograman Berbasis Platform
+* **Dosen Pengampu:** Hendra Bayu Suseno, M.Kom.
 ---
 ## 🚀 Fitur Utama
 Aplikasi ini memiliki fitur lengkap sebagai berikut:
@@ -37,15 +38,15 @@ Aplikasi ini memiliki fitur lengkap sebagai berikut:
 ## 📦 Cara Instalasi (How to Run)
 Ikuti langkah berikut untuk menjalankan proyek ini di komputer lokal:
 ### 1. Clone Repository
-Download atau clone repository ini ke dalam folder `htdocs` (jika menggunakan XAMPP).
+Download atau clone repository ini ke dalam folder `htdocs`.
 ```bash
-git clone https://github.com/username-kelompok/readwise.git
+git clone https://github.com/syifaauliyahk/Readwise-Epub-Reader.git
 ```
 ### 2. Siapkan Database
 * Buka **phpMyAdmin** (biasanya di `http://localhost/phpmyadmin`).
 * Buat database baru dengan nama: **`epubread`**.
 * Import file **`epubread.sql`** yang ada di dalam folder root proyek ini.
-### 3. Konfigurasi Koneksi 
+### 3. Konfigurasi Koneksi (Jika Perlu)
 * Buka file `core/db.php`.
 * Pastikan pengaturan `host`, `username`, `password`, dan `dbname` sesuai dengan server lokal Anda.
 ```php
@@ -55,7 +56,7 @@ $pass = "";
 $dbname = "epubread";
 ```
 ### 4. Jalankan Aplikasi
-* Buka browser dan akses: `http://localhost/Readwise-Epub-Reader` 
+* Buka browser dan akses: `http://localhost/Readwise-Epub-Reader`.
 * Silakan **Register** akun baru untuk mulai menggunakan.
 ---
 © 2025 Kelompok. All Rights Reserved.

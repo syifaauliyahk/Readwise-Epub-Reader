@@ -1,6 +1,6 @@
 <?php
 return [
-    // --- LOGIN PAGE ---
+    // LOGIN PAGE
     'page_title_login' => 'Masuk - ReadMe',
     'welcome_back' => 'Selamat Datang Kembali!',
     'login_subtitle' => 'Silakan masuk ke akun Anda',
@@ -16,7 +16,8 @@ return [
     'error_wrong_pass' => 'Kata sandi salah!',
     'error_user_not_found' => 'Nama pengguna tidak ditemukan!',
 
-    // --- REGISTER PAGE ---
+    
+    // REGISTER PAGE
     'page_title_register' => 'Daftar Akun - ReadMe',
     'create_account' => 'Buat Akun Baru',
     'register_subtitle' => 'Bergabunglah dengan komunitas kami sekarang',
@@ -34,7 +35,8 @@ return [
     'error_register_fail' => 'Gagal mendaftar, silakan coba lagi.',
     'success_register' => 'Akun berhasil dibuat! Silakan login.',
 
-    // --- INDEX PAGE ---
+    
+    // INDEX PAGE
     'library_title' => 'Pustaka Saya',
     'books_available' => 'Buku Tersedia',
     'search_library_placeholder' => 'Cari judul atau penulis...',
@@ -70,7 +72,8 @@ return [
     'sort_az' => 'Judul A-Z',
     'logout' => 'Keluar',
 
-    // --- UPLOAD PAGE ---
+    
+    // UPLOAD PAGE
     'page_title_upload' => 'Status Upload - ReadMe',
     'status_info_title' => 'ℹ️ Info Status',
     'status_info_desc' => 'Halaman ini menampilkan hasil proses upload file EPUB Anda. Jika gagal, silakan cek log error di bawah.',
@@ -97,7 +100,8 @@ return [
     'log_invalid_format' => 'ERROR: File bukan format .epub',
     'log_system_error' => 'ERROR SYSTEM CODE: ',
 
-    // --- READER PAGE ---
+    
+    // READER PAGE
     'page_title_reader' => 'Membaca: %s - ReadMe',
     'back_to_library' => 'Kembali ke Pustaka',
     'toc_title' => 'Daftar Isi',
@@ -121,7 +125,8 @@ return [
     'reader_wait' => 'Tunggu...',
     'reader_error' => 'Error: ',
 
-    // --- DELETE BOOK PROCESS ---
+    
+    // DELETE BOOK PROCESS
     'err_not_logged_in' => 'Anda belum login.',
     'err_invalid_method' => 'Metode request tidak valid.',
     'err_no_book_id' => 'ID buku tidak ditemukan.',
@@ -129,7 +134,8 @@ return [
     'msg_delete_success' => 'Buku berhasil dihapus.',
     'err_delete_db' => 'Gagal menghapus data dari database.',
 
-    // --- API MESSAGES ---
+    
+    // API MESSAGES
     'api_unauthorized' => 'Tidak diizinkan.',
     'api_missing_book_id' => 'ID Buku tidak ditemukan.',
     'api_book_not_found' => 'Buku tidak ditemukan.',
@@ -140,10 +146,12 @@ return [
     'api_invalid_action' => 'Aksi tidak valid.',
     'api_db_error' => 'Database Error: ',
 
-    // --- DATABASE ---
+    
+    // DATABASE
     'db_connection_failed' => 'Koneksi database gagal: ',
 
-    // --- EPUB CLASS INTERNAL ---
+    
+    // EPUB CLASS INTERNAL
     'epub_untitled' => 'Tanpa Judul',
     'epub_unknown_author' => 'Penulis Tidak Diketahui',
     'epub_chapter_prefix' => 'Bab ',
@@ -154,13 +162,14 @@ return [
     'epub_err_read_title' => 'Gagal Membaca',
     'epub_err_read_msg' => 'Tidak dapat membaca konten file.',
 
-    // --- READER PAGE (UPDATE) ---
-    // ... (biarkan yang lain) ...
-    'bookmarks_title' => 'Penanda & Catatan', // Ubah judul
-    'btn_bookmark' => '🔖 Tandai Halaman Ini', // Tombol baru
-    'btn_note' => '📝 Tambah Catatan',       // Tombol baru
+    
+    // READER PAGE (UPDATE) 
+    'bookmarks_title' => 'Penanda & Catatan', 
+    'btn_bookmark' => '🔖 Tandai Halaman Ini', 
+    'btn_note' => '📝 Tambah Catatan',     
     'msg_bookmark_added' => 'Bookmark tersimpan!',
     'label_bookmark' => 'Penanda Buku',
 
 ];
+
 ?>

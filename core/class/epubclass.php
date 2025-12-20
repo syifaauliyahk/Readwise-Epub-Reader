@@ -224,8 +224,8 @@ class EPubReader {
         $chapterPath = $this->resolvePath($href);
 
         if (!$chapterPath || !file_exists($chapterPath)) {
-             // Fallback: coba cari di root folder
-             $altPath = $this->extractedPath . '/' . basename($href);
+
+            $altPath = $this->extractedPath . '/' . basename($href);
              if(file_exists($altPath)){
                  $chapterPath = $altPath;
              } else {
@@ -265,13 +265,11 @@ class EPubReader {
 
         $xpath = new DOMXPath($dom);
 
-        // HAPUS Tag Sampah
         $garbage = $xpath->query('//script | //style | //link | //meta | //head | //title');
         foreach ($garbage as $node) {
             $node->parentNode->removeChild($node);
         }
 
-        // STRIPPING ATRIBUT
         $allElements = $xpath->query('//*');
         $allowedAttrs = ['src', 'href', 'id', 'name']; 
 
@@ -392,4 +390,5 @@ class EPubReader {
     public function getSpine() { return $this->spine; }
     public function getTotalChapters() { return count($this->spine); }
 }
+
 ?>

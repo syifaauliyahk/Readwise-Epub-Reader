@@ -1,7 +1,7 @@
 # 📚 ReadWise - Web Based ePub Reader
 
-ReadWise adalah aplikasi pembaca buku digital (e-reader) berbasis web yang mendukung format `.epub`. Aplikasi ini memungkinkan pengguna untuk mengunggah dan membaca buku digital secara online.
-Proyek ini dibuat untuk memenuhi **Ujian Akhir Semester (UAS)** mata kuliah **Pemrograman Berbasis Platform.
+**ReadWise** adalah aplikasi pembaca buku digital (e-reader) berbasis web yang mendukung format `.epub`. Aplikasi ini memungkinkan pengguna untuk mengunggah dan membaca buku digital secara online.
+Proyek ini dibuat untuk memenuhi **Ujian Akhir Semester (UAS)** mata kuliah **Pemrograman Berbasis Platform**.
 
 ---
 ## 👨‍💻 Identitas Kelompok
@@ -16,7 +16,7 @@ Proyek ini dibuat untuk memenuhi **Ujian Akhir Semester (UAS)** mata kuliah **Pe
 ## 🚀 Fitur Utama
 Aplikasi ini memiliki fitur lengkap sebagai berikut:
 ### 1. Manajemen Pengguna & Buku
-* ✅ **Login & Register:** Sistem autentikasi dengan hashing password `password_hash`).
+* ✅ **Login & Register:** Sistem autentikasi dengan hashing password.
 * ✅ **Upload ePub:** Pengguna dapat mengunggah file `.epub`. Sistem akan otomatis mengekstrak konten buku.
 * ✅ **Kategori Prodi:** Buku dikelompokkan berdasarkan Program Studi di FST (Teknik Informatika, Sistem Informasi, Agribisnis, Matematika, Fisika, Biologi, Kimia, Teknik Pertambangan).
 ### 2. Fitur Pembaca (Reader)
@@ -29,10 +29,10 @@ Aplikasi ini memiliki fitur lengkap sebagai berikut:
 ---
 ## 🛠️ Teknologi yang Digunakan
 * **Backend:** PHP 
-* **Frontend:** HTML5, CSS3, JavaScript (Vanilla)
+* **Frontend:** HTML5, CSS3, JavaScript
 * **Database:** MySQL 
 * **Server:** Apache (via XAMPP)
-* **Library:** PHP `ZipArchive` (untuk ekstraksi ePub)
+* **Library:** PHP `ZipArchive` 
 ---
 ## 📦 Cara Instalasi (How to Run)
 Ikuti langkah berikut untuk menjalankan proyek ini di komputer lokal:
@@ -45,17 +45,17 @@ git clone https://github.com/username-kelompok/readwise.git
 * Buka **phpMyAdmin** (biasanya di `http://localhost/phpmyadmin`).
 * Buat database baru dengan nama: **`epubread`**.
 * Import file **`epubread.sql`** yang ada di dalam folder root proyek ini.
-### 3. Konfigurasi Koneksi (Jika Perlu)
+### 3. Konfigurasi Koneksi 
 * Buka file `core/db.php`.
 * Pastikan pengaturan `host`, `username`, `password`, dan `dbname` sesuai dengan server lokal Anda.
 ```php
-$host = "localhost"; // Sesuaikan jika pakai port khusus (misal localhost:4306)
+$host = "localhost"; 
 $user = "root";
 $pass = ""; 
 $dbname = "epubread";
 ```
 ### 4. Jalankan Aplikasi
-* Buka browser dan akses: `http://localhost/readwise` (sesuaikan dengan nama folder).
+* Buka browser dan akses: `http://localhost/Readwise-Epub-Reader` 
 * Silakan **Register** akun baru untuk mulai menggunakan.
 ---
-© 2025 Tim ReadWise. All Rights Reserved.
+© 2025 Kelompok. All Rights Reserved.

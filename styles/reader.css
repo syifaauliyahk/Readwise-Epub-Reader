@@ -31,7 +31,7 @@ body {
     gap: 20px;
 }
 
-/* 2. SIDEBAR (CARD SYSTEM) */
+/* SIDEBAR (CARD SYSTEM) */
 .sidebar {
     width: 300px;
     display: flex;
@@ -83,7 +83,7 @@ body {
     transform: translateY(-2px);
 }
 
-/* --- TOC (SCROLLABLE) --- */
+/* TOC (SCROLLABLE) */
 .toc-scroll-box {
     max-height: 250px; 
     overflow-y: auto;
@@ -231,4 +231,5 @@ mark { background-color: #ffeb3b !important; color: black !important; }
 .btn-secondary:hover {
     background-color: #f9f9f9;
     border-color: #999;
+
 }

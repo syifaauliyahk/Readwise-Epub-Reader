@@ -6,9 +6,9 @@ Proyek ini dibuat untuk memenuhi **Ujian Akhir Semester (UAS)** mata kuliah **Pe
 ---
 ## 👨‍💻 Identitas Kelompok
 **Anggota Tim:**
-1.  **Nama:** [NAMA ANGGOTA 1]
-2.  **Nama:** [NAMA ANGGOTA 2]
-3.  **Nama:** [NAMA ANGGOTA 3]
+1.  Fadiya Tsabita
+2.  Salsa Sabrina
+3.  Syifa Auliyah Kusumawardani
 
 * **Fakultas:** Sains dan Teknologi
 * **Mata Kuliah:** Pemrograman Berbasis Platform
